@@ -35,10 +35,10 @@ function makeInt(n) {
 
 function preserveDecimal(n) {
   var x = parseFloat(n)
-  
   if (x === n)
     return x  
-  else return "NaN"
+  else if (x === "NaN")
+    return "NaN"
 }
 
 
