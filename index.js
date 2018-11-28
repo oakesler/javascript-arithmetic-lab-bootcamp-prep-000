@@ -29,7 +29,7 @@ function dec(a) {
 function makeInt(a) {
   var x = parseInt(a)
   
-  if (a / 0 === 0)
+  if (x / 0 === 0)
     return x
   
   else return "isNan"
