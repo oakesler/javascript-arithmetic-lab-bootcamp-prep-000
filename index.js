@@ -28,7 +28,15 @@ function dec(a) {
 
 function makeInt(a) {
   var x = parseInt(a) 
-  return (x /= 0)
+  
+  if(x * 0 === 0)
+    return x
+    
+  if (x = "isNan")
+  return 
+  
+  
+  
 }
 
 describe('makeInt(n)', function() {
