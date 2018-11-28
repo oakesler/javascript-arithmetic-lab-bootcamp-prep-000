@@ -38,7 +38,7 @@ function preserveDecimal(n) {
   
   if (x === n)
     return x  
-    else return "NaN"
+  else return "NaN"
 }
 
 
