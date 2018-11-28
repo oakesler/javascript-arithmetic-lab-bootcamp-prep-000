@@ -32,7 +32,7 @@ function makeInt(n) {
   return x 
   
   if(x === 0)
-    return parseInt(n)
+    return parseInt(n, 10)
     else return "is Nan"
 }
 
