@@ -32,8 +32,8 @@ function makeInt(a) {
   return x 
   
   if(x === 0)
-  return parseInt(a)
-  else return "is Nan"
+    return parseInt(a)
+    else return "is Nan"
 }
 
 
