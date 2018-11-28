@@ -27,13 +27,9 @@ function dec(a) {
 }
 
 function makeInt(n) {
-  var x = n * 0
-  
-  return x 
-  
-  if(x === 0)
-    return parseInt(n, 10)
-    else return "is Nan"
+  var x = parseInt(n, 10)
+  return x
+  else return "NaN"
 }
 
 
