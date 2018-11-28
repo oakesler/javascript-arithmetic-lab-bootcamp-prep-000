@@ -26,13 +26,13 @@ function dec(a) {
   return a
 }
 
-function makeInt(a) {
-  var x = a * 0
+function makeInt(n) {
+  var x = n * 0
   
   return x 
   
   if(x === 0)
-    return parseInt(a)
+    return parseInt(n)
     else return "is Nan"
 }
 
