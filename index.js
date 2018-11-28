@@ -30,7 +30,7 @@ function makeInt(a) {
   var x = parseInt(a)
   
   if (x * 0 === 0)
-    return x * 0
+    return parseInt(a)
     else return "is Nan"
   
 }
