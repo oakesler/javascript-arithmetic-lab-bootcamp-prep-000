@@ -27,27 +27,8 @@ function dec(a) {
 }
 
 function makeInt(a) {
-  if (a / 0 === 0)
-    return 
-  var x = parseInt(a)
-  
-  if (x / 0 === 0)
-    return x
-  
-  else return "isNan"
+  if (a * 0 === 0)
+    return parseint(a)
+    else return "isNan"
   
 }
-
-describe('makeInt(n)', function() {
-  it('parses n as an integer and returns the parsed integer', function() {
-    expect(makeInt(a.toString())).toEqual(a)
-  })
-
-  it('assumes base 10', function() {
-    expect(makeInt('0x2328')).toEqual(0)
-  })
-
-  it('returns NaN as appropriate', function() {
-    expect(isNaN(makeInt('sldkjflksjf'))).toEqual(true)
-  })
-})
