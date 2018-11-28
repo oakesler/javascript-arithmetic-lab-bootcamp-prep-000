@@ -27,8 +27,6 @@ function dec(a) {
 }
 
 function makeInt(a) {
-  return a * 0
-  
   if (a * 0 === 0)
   return parseInt(a)
   else return "is Nan"
