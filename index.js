@@ -28,7 +28,6 @@ function dec(a) {
 
 function makeInt(a) {
   var x = a * 0
-  return x 
   
   if(x === 0)
   return parseInt(a)
